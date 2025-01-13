@@ -1,1 +1,6 @@
 # Proyecto Urban Grocers 
+# Descripción/propósito del proyecto: En conjunto con el equipo de QA Engineers se está comprobando como la aplicación Urban Grocers crea kits de productos. En base a una lista de comprobación específicamente para el campo name en la solicitud de creación de un kit de productos. Se automatizaron las pruebas desde la lista de comprobación y se cargo el código en GitHub. 
+# Funcionalidades principales: Se verificó una lista de comprobación donde se obtenía un código 201 con un carácter en el campo "name", 511 caracteres, carácteres especiales, espacios y números y un error o código 400 en el campo "name" con 0 carácteres, más de 512, cuando un parámetro no se pasa en la solicitud y cuando se ha pasado un tipo de parámetro diferente (número). las pruebas fueron aprobadas y se obtuvo el resultado esperado en las pruebas.
+# Fuente de documentación : apiDoc
+# Descripción de las tecnologías y técnicas utilizadas: Para este proyecto se utilizó Pytest para la automatización de pruebas, GitBash pasra trabajar con repositorio local y remoto, GitHub para guardar el proyecto, Python: funciones, la convención snake_case, libreria requests para trabajar con metodos GET, POST, PUT, DELETE.
+# Instrucciones para ejecutar el proyecto: bash pytest /C:\Users\jorge\projects\qa-project-Urban-Grocers-app-es. 

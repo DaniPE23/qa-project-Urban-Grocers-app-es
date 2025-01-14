@@ -15,3 +15,4 @@ auth_token = "<tu_token_de_acceso>"
 response = post_new_client_kit(data.kit_body, auth_token)
 print(response.status_code)
 print(response.json())
+
